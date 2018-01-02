@@ -1,0 +1,92 @@
+html {
+	line-height: 1;
+}
+html, body {
+	background-color: #f8f8f8;
+	font-size: 13px;
+	font-family: 'bein-normal';
+	font-weight: bold;
+}
+p {
+	font-size: 12px;
+}
+.uk-navbar-nav li a, .uk-navbar-item, .uk-logo, h1, span, h2, h3, h4, h5, button {
+	font-family: 'bein-normal';
+	font-weight: bold;
+}
+.uk-navbar-nav li a, .uk-nav-primary > li > a {
+	font-size: 13px !important;
+	font-weight: bold;
+}
+
+.uk-offcanvas-bar ul li a {
+	color: #808080 !important;
+}
+.uk-navbar-nav > li > a, .uk-navbar-item {
+	height: 60px;
+}
+.uk-navbar-nav > li > a.uk-navbar-toggle {
+	height: 45px;
+}
+
+.uk-button-text::before {
+	border-width: 4px; // Lins Under Link Hovered
+}
+
+.uk-grid {
+    margin-left: 0px;
+}
+
+.uk-grid-small > * {
+    padding-right: 15px;
+}
+
+[class*='uk-dropdown-bottom'] {
+	margin-top: 0px;
+	border: 1px solid #dddddd;
+}
+
+.uk-nav-primary > li > a {
+	font-size: 1rem;
+}
+
+.uk-table th {
+	text-align: right;
+	font-size: 14px;
+}
+
+.uk-table td {
+	text-align: right;
+	font-size: 13px;
+	vertical-align: middle;
+}
+
+.uk-pagination {
+	margin-left: 20px;
+}
+
+.uk-nav-parent-icon > .uk-parent > a::after {
+	margin-left: 20px;
+	margin-right: 10px;
+}
+
+.uk-card-title {
+    font-size: 1.3rem;
+    line-height: 1;
+}
+
+.uk-button {
+	font-size: 1rem;
+}
+
+.uk-radio, .uk-checkbox {
+	margin-top: 0px;
+}
+
+.uk-form-label {
+	font-size: 0.900rem;
+	margin-bottom: 5px !important;
+}
+
+
+// Focus and Hover Active
